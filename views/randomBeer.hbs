@@ -1,0 +1,17 @@
+{{!-- randomBeer --}}
+{{!-- <h1 class="display-1">randomBeer</h1> --}}
+<div class="container mt-5">
+  <div class="row">
+       {{#each beer}}
+    <div class="col">
+      <img src="{{image_url}}" alt="beer image">
+    </div>
+    <div class="col">
+     <h2>{{name}}</h2>
+        <p>{{description}}</p>
+        <p>{{tagline}}</p>
+    </div>
+    
+     {{/each}}
+  </div>
+</div>
