@@ -1,7 +1,19 @@
-/*
+/* 
 white: #f7f9f9;
 light-blue: #2081c3;
 dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
-*/
+
+ */
+
+/* btn stylling */
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+button a:hover{
+color: pink;
+}
