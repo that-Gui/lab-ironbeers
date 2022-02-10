@@ -1,28 +1,19 @@
 {{!-- beers --}}
-{{!-- <div class="container mt-5">
- 
-     <h1 class="display-1">Beers</h1>
-
-  <div class="container mx-auto">
-    {{#each beers}}
-        {{this}}
-        <p>test p</p>
-    {{/each}}
-  </div>
-</div> --}}
-
 <div class="container mt-5">
-  <div class="row">
-       {{#each beers}}
-    <div class="col">
+  <div class="column">
+     {{!--   {{#each beers}} --}}
+
+       {{> beerpartial}}
+
+    {{!-- <div class="col">
       <img src="{{image_url}}" alt="beer image">
     </div>
     <div class="col">
      <h2>{{name}}</h2>
         <p>{{description}}</p>
         <p>{{tagline}}</p>
-    </div>
+    </div> --}}
     
-     {{/each}}
+    {{!--  {{/each}} --}}
   </div>
 </div>
