@@ -1,17 +1,15 @@
 {{!-- beer partial --}}
-<div class="container mt-5">
 
 {{#each beers}}
- 
-<div class="card" style="width: 18rem;">
-  <img src="{{image_url}}" class="card-img-top" alt="beer image">
-  <div class="card-body">
-    <h5 class="card-title">{{name}}</h5>
-    <p class="card-text">{{description}}</p>
-    <p class="card-text">{{tagline}}</p>
-  </div>
-</div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="{{image_url}}" class="card-img-top" alt="beer image">
+      <div class="card-body">
+        <h5 class="card-title">{{name}}</h5>
+        <p class="card-text">{{description}}</p>
+        <p class="card-text">{{tagline}}</p>
+      </div>
+    </div>
 
  {{/each}}
  
-</div>
